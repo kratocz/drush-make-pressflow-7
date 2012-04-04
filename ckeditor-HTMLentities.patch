@@ -1,0 +1,11 @@
+--- ckeditor.config.js  2012-02-12 23:15:12.401466351 +0100
++++ ckeditor.config.js     2012-02-12 23:09:27.090198241 +0100
+@@ -8,6 +8,8 @@ For licensing, see LICENSE.html or http:
+  If you don't do this, you may notice that browser is ignoring all your changes.
+  */
+ CKEDITOR.editorConfig = function(config) {
++    config.entities_greek = false;
++    config.entities_latin = false;
+     config.indentClasses = [ 'rteindent1', 'rteindent2', 'rteindent3', 'rteindent4' ];
+
+     // [ Left, Center, Right, Justified ]

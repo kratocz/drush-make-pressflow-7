@@ -1,0 +1,11 @@
+--- a/modules/system/system.admin.css
++++ b/modules/system/system.admin.css
+@@ -62,6 +62,7 @@
+ }
+ div.admin-requirements,
+ div.admin-required {
++  display: none;
+   font-size: 0.9em;
+   color: #444;
+ }
+
