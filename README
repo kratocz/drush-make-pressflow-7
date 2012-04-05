@@ -1,0 +1,2 @@
+Usage: mkdir DIR && cd DIR && drush make https://raw.github.com/kratocz/Drupal-platform-makefiles/7.x-1.x/make.ini
+...will download complete Pressflow 7 platform to the new directory DIR.
