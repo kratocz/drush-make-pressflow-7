@@ -361,6 +361,8 @@ libraries[plupload][download][type] = "file"
 libraries[plupload][download][url] = "https://github.com/downloads/moxiecode/plupload/plupload_1_5_4.zip"
 libraries[plupload][destination] = "libraries"
 
+
+
 ; START waiting for this issue: http://drupal.org/node/1258660
 libraries[jwysiwyg][download][type] = "file"
 libraries[jwysiwyg][download][url] = "http://jwysiwyg.googlecode.com/svn/tags/0.6/jwysiwyg/jquery.wysiwyg.js"
