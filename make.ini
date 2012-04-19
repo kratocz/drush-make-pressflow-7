@@ -334,9 +334,6 @@ projects[] = xmlsitemap
 
 ; Libraries
 ; ---------
-libraries[autopager][download][type] = "file"
-libraries[autopager][download][url] = "http://jquery-autopager.googlecode.com/files/jquery.autopager-1.0.0.js"
-
 libraries[jquery][download][type] = "file"
 libraries[jquery][download][url] = "https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"
 
@@ -352,7 +349,12 @@ libraries[jwysiwyg][download][url] = "http://jwysiwyg.googlecode.com/svn/tags/0.
 libraries[jquery.cycle][download][type] = "file"
 libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
 
+libraries[autopager][download][type] = "file"
+libraries[autopager][download][url] = "http://jquery-autopager.googlecode.com/files/jquery.autopager-1.0.0.js"
 
+libraries[plupload][download][type] = "file"
+libraries[plupload][download][url] = "https://github.com/downloads/moxiecode/plupload/plupload_1_5_4.zip"
+libraries[plupload][destination] = "libraries"
 
 ; START waiting for this issue: http://drupal.org/node/1258660
 libraries[jwysiwyg][download][type] = "file"
