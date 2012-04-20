@@ -80,6 +80,7 @@ projects[] = advanced_help
 projects[] = agrcache
 projects[] = apachesolr
 projects[] = arrange_fields
+projects[] = allow_all_file_extensions
 projects[] = auto_nodetitle
 projects[] = autocomplete_widgets
 projects[] = backup_migrate
