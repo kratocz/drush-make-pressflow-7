@@ -1,7 +1,7 @@
-Usage: drush make https://raw.github.com/kratocz/Drupal-platform-makefiles/7.x-1.x/make.ini [DIR]
+Usage: drush make https://raw.github.com/kratocz/drush-make-pressflow-7/master/make.ini [DIR]
 
 * [DIR]: Specified directory instead of current directory where the platform will be placed (optional).
 
-...will download complete Pressflow 6 platform to the new directory DIR (or to current directory).
+...will download complete Pressflow 7 platform to the new directory DIR (or to current directory).
 
 Use this only at your own risk!
