@@ -1,0 +1,12 @@
+diff --git a/includes/bootstrap.inc b/includes/bootstrap.inc
+index 4c0bcfe..bbb60bc 100644
+--- a/includes/bootstrap.inc
++++ b/includes/bootstrap.inc
+@@ -2132,6 +2132,7 @@ function drupal_anonymous_user() {
+  *   The most recently completed phase.
+  */
+ function drupal_bootstrap($phase = NULL, $new_phase = TRUE) {
++  error_reporting(E_ALL); // krato mod
+   // Not drupal_static(), because does not depend on any run-time information.
+   static $phases = array(
+     DRUPAL_BOOTSTRAP_CONFIGURATION,
